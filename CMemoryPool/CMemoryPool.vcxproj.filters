@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\CMemoryPool">
+      <UniqueIdentifier>{6d71ca36-af93-47a5-ba74-df74660aa2e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ThreadTest">
+      <UniqueIdentifier>{7deb81d5-e1fd-47eb-ba52-c150830e3432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PacketRingBuffer">
+      <UniqueIdentifier>{338753c9-ffca-4d76-942e-451ca5962ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CLockFreeQueue">
+      <UniqueIdentifier>{9e787dff-bc4a-41fd-b4c6-7b8616947c51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DeadLockDebug">
+      <UniqueIdentifier>{de9d374b-4446-41fa-8a62-9f98d80c7c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CPacket">
+      <UniqueIdentifier>{a3a1c9ee-009a-4206-8013-bda39b076952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CLockFreeStack">
+      <UniqueIdentifier>{9bdec39e-bcaa-4450-8375-aad587318bd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CMemoryPool_UnSafeMutilThread">
+      <UniqueIdentifier>{4d5ba336-8234-4f3a-851a-0f3bb8c0c199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\HazardPointer">
+      <UniqueIdentifier>{4c5e7672-8271-42f4-b360-8e3d77f21e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\InterlockedSList">
+      <UniqueIdentifier>{a13fedbd-e637-4b6c-a110-10d2bb8cfde0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TestThread.cpp">
+      <Filter>소스 파일\ThreadTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CIOCriticalSectionDebug.cpp">
+      <Filter>소스 파일\DeadLockDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="CPacket.cpp">
+      <Filter>소스 파일\CPacket</Filter>
+    </ClCompile>
+    <ClCompile Include="CMomoryPool_InterLockSList.h">
+      <Filter>소스 파일\InterlockedSList</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CMemoryPool.h">
+      <Filter>소스 파일\CMemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="TestThread.h">
+      <Filter>소스 파일\ThreadTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPacketRingBuffer.h">
+      <Filter>소스 파일\PacketRingBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="CLockFreeQueue.h">
+      <Filter>소스 파일\CLockFreeQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="CIOCriticalSectionDebug.h">
+      <Filter>소스 파일\DeadLockDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="CPacket.h">
+      <Filter>소스 파일\CPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="CLockFreeStack.h">
+      <Filter>소스 파일\CLockFreeStack</Filter>
+    </ClInclude>
+    <ClInclude Include="CMemoryPool_UnSafeMutiThread.h">
+      <Filter>소스 파일\CMemoryPool_UnSafeMutilThread</Filter>
+    </ClInclude>
+    <ClInclude Include="CHazardPointer_MemoryPool.h">
+      <Filter>소스 파일\HazardPointer</Filter>
+    </ClInclude>
+    <ClInclude Include="CHazardMemoryPool_FromGPT.h">
+      <Filter>소스 파일\HazardPointer</Filter>
+    </ClInclude>
+    <ClInclude Include="CLockFreeQueue_FromGPT.h">
+      <Filter>소스 파일\CLockFreeQueue</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
